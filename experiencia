@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" user-scalable=no>
+    <title>Experiencia</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <svg width="250px" heigth="250px">
+        <image xlink:href="img/LOGO_CV.svg" width="250px" heigth="250px"><image/>
+        </svg>
+      </nav>
+      <h1>Curriculum Vitae</h1><br>
+      <h2 id="inicio">Datos Personales</h2>
+        <p><strong>Nombres:</strong> Wilman Jesús</p>
+        <p><strong>Apellidos:</strong> Camargo Goenaga</p>
+        <p><strong>Fecha de Nacimiento:</strong> 6 de Enero de 1988</p>
+        <p><strong>Lugar de Nacimiento:</strong> Santa Marta, Colombia.</p><br>
+      <h2>Enlaces de Menú Básico</h2>
+        <h3 id="inicio">Inicio</h3><a href="index.html">Ir a Inicio</a>
+        <h3 id="educacion">Educación</h3><a href="educacion.html" target="_blank">Ir a Educación</a>
+        <h3 id="experiencia">Experiencia</h3><a href="experiencia.html">Ir a Experiencia</a>
+    </header><br>
+      <section>
+        <h2>Experiencia</h2>
+        <h3>Video sobre Habilidades e Intereses Profesionales</h3>
+        <video src="video/Video_CV.mp4" controls autoplay poster="posterimage.jpg" preload="auto">
+        <source src="video/Video_CV.ogv" type="video/ogg">
+        <source src="video/Video_CV.webm" type="video/webm">
+        </video>
+        <h3>Audio sobre Hobbies</h3>
+        <audio src="audio/Audio_CV.mp4" controls preload="auto">
+        </audio>
+    <footer>
+      <h2>Información de Contacto</h2>
+      <p><strong>Email:</strong> wilmancg@gmail.com</p>
+      <p><strong>Cel.:</strong> (57) 3004232613</p>
+      <p><strong>Dirección de residencia:</strong> Cra. 16B Barrio Obrero, Santa Marta, Col. </p>
+    </footer>
+  </body>
+</html>
+

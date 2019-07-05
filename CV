@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" user-scalable=no>
+    <meta name="author" content="Wilman Camargo Goenaga">
+    <title>Curriculum Vitae de Wilman Camargo Goenaga</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <svg width="250px" heigth="250px">
+        <image xlink:href="img/LOGO_CV.svg" width="250px" heigth="250px"><image/>
+        </svg>
+      </nav>
+      <h1>Curriculum Vitae</h1><br>
+      <h2 id="inicio">Datos Personales</h2>
+        <p><strong>Nombres:</strong> Wilman Jesús</p>
+        <p><strong>Apellidos:</strong> Camargo Goenaga</p>
+        <p><strong>Fecha de Nacimiento:</strong> 6 de Enero de 1988</p>
+        <p><strong>Lugar de Nacimiento:</strong> Santa Marta, Colombia.</p><br>
+      <h2>Enlaces de Menú Básico</h2>
+        <h3 id="inicio">Inicio</h3><a href="index.html">Ir a Inicio</a>
+        <h3 id="educacion">Educación</h3><a href="educacion.html" target="_blank">Ir a Educación</a>
+        <h3 id="experiencia">Experiencia</h3><a href="experiencia.html" target="_blank">Ir a Experiencia</a>
+    </header><br>
+      <section>
+        <h2>Información Personal</h2>
+        <img src="img/fotoperfilcv.jpg" alt="fotoperfilcv" title="fotoperfilcv" width="225px">
+        <article class="Text">
+          <h3>Perfil</h3>
+        <p>Soy Profesional en Negocios Internacionales con énfasis en Mercadeo
+Internacional y dominio del idioma Inglés. Académicamente, me destaqué
+por mis altas calificaciones en el área financiera. He trabajado en el área
+administrativa y actualmente laboro como Analista de Crédito en el Banco Mundo Mujer. Tengo altas competencias comunicativas y de servicio al cliente.
+Me comprometo con los resultados, soy emprendedor, organizado y disfruto
+trabajando en equipo. </p>
+        <h4>Idiomas</h4>
+        <ul>
+          <li>Inglés. Nivel oral y escrito intermedio.</li>
+          <li>Mandarín. Nivel básico.</li>
+        </ul>
+        </article>
+      </section>
+    <footer>
+      <h2>Información de Contacto</h2>
+      <p><strong>Email:</strong> wilmancg@gmail.com</p>
+      <p><strong>Cel.:</strong> (57) 3004232613</p>
+      <p><strong>Dirección de residencia:</strong> Cra. 16B Barrio Obrero, Santa Marta, Col. </p>
+    </footer>
+  </body>
+</html>
